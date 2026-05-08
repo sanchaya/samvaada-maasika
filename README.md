@@ -1,6 +1,6 @@
-# ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ & ಶ್ರೀಮತಿ ಶಾಂತಾದೇವಿ ಕಣವಿ ಅವರ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ
+# ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ
 
-ಡಾ. ಚೆನ್ನವೀರ ಕಣವಿ & ಶ್ರೀಮತಿ ಶಾಂತಾದೇವಿ ಕಣವಿ ಅವರ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯು is a showcase of the #ServantsOfKnowledge project works @Sanchaya
+ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯು is a showcase of the #ServantsOfKnowledge project works @Sanchaya
 
 Check it out : https://sanchaya.org & https://sanchifoundation.org
 
