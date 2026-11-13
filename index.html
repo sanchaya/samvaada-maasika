@@ -1,231 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta name="description" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ">
-    <meta name="author" content="Sanchaya">
-
-    <meta property="og:image" content="http://pvn.sanchaya.net/img/cover_modularjavascript.png" />
-    <meta property="og:title" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ" />
-    <meta property="og:description" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://pvn.sanchaya.net/" />
-
-    <meta name="twitter:card" content="ಅಂತರಜಾಲದಲ್ಲಿರುವ ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ!"/>
-    <meta name="twitter:url" content="http://digital.sanchaya.net/"/>
-    <meta name="twitter:title" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ"/>
-    <meta name="twitter:description" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್‍ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!"/>
-    <meta name="twitter:image" content="http://digital.sanchaya.net/img/cover_modularjavascript.png"/>
-    <meta name=”twitter:creator” value=”@_sanchaya />‍
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="./css/index.css?v=2" media="all">
-
-    <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
-
-    <link rel="shortcut icon" href="./img/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+<meta charset="utf-8">
+<title>ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ">
+<meta name="portal-design" content="7">
+<meta name="author" content="S. R. Govindu">
+<link rel="canonical" href="https://samvaada.sanchaya.net/">
+<meta property="og:title" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ">
+<meta property="og:description" content="">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://samvaada.sanchaya.net">
+<meta property="og:image" content="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.1.nov.2002">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.1.nov.2002">
+<link rel="icon" type="image/png" sizes="32x32" href="./img/ico/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="192x192" href="./img/ico/android-chrome-192x192.png">
+<link rel="stylesheet" href="./css/portal.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ","description":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ","url":"https://samvaada.sanchaya.net/","inLanguage":"en","publisher":{"@type":"Organization","name":"S. R. Govindu"},"mainEntity":{"@type":"ItemList","numberOfItems":119,"itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2002","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.1.nov.2002","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2002"}},{"@type":"ListItem","position":2,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:2-3, ಡಿಸೆಂಬರ್-2002 : ಜನವರಿ-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":3,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.4.feb.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":4,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.5.mar.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":5,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.6.apr.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":6,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:7, ಮೇ-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.7.may.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":7,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:8, ಜೂನ್-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.8.jun.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":8,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:9, ಜುಲೈ-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.9.jul.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":9,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.10.aug.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":10,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.11.sep.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":11,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2003","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.12.oct.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":12,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2003","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.1.nov.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":13,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2003","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.2.dec.2003","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2003"}},{"@type":"ListItem","position":14,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:3, ಜನವರಿ-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.3.jan.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":15,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.4.feb.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":16,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.5.mar.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":17,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.6.apr.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":18,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:7, ಮೇ-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.7.may.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":19,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:8, ಜೂನ್-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.8.jun.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":20,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.10.aug.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":21,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.11.sep.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":22,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2004","url":"https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.12.oct.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":23,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:9, ಜುಲೈ-2004","url":"https://archive.org/details/smp.samvaadasamputa20000sam.2.san.9.jul.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":24,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2004","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.1.nov.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":25,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2004","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.2.dec.2004","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2004"}},{"@type":"ListItem","position":26,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:3, ಜನವರಿ-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.3.jan.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":27,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.4.feb.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":28,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.5.mar.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":29,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:7, ಮೇ-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.7.may.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":30,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:8, ಜೂನ್-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.8.jun.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":31,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:9-10, ಜುಲೈ : ಆಗಸ್ಟ್-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.9-10.aug.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":32,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.11.sep.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":33,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.12.oct.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":34,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2005","url":"https://archive.org/details/smp.samvaadasamputa30000.sam.6.san.6.apr.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":35,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2005","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.1.nov.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":36,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2005","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.2.dec.2005","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2005"}},{"@type":"ListItem","position":37,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:3, ಜನವರಿ-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.3.jan.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":38,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.4.feb.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":39,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.5.mar.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":40,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.6.apr.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":41,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:7, ಮೇ-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.7.may.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":42,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:8, ಜೂನ್-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.8.jun.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":43,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:9, ಜುಲೈ-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.9.jul.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":44,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.10.aug.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":45,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.11.sep.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":46,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:4, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2006","url":"https://archive.org/details/smp.samvaadasamputa40000.sam.4.san.12.oct.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":47,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2006","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.1.nov.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":48,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2006","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.2.dec.2006","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2006"}},{"@type":"ListItem","position":49,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:3, ಜನವರಿ-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.3.jan.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":50,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.4.feb.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":51,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.5.mar.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":52,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.6.apr.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":53,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:7, ಮೇ-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.7.may.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":54,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:8, ಜೂನ್-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.8.jun.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":55,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:9, ಜುಲೈ-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.9.jul.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":56,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.10.aug.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":57,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.11.sep.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":58,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:5, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2007","url":"https://archive.org/details/smp.samvaadasamputa50000.sam.5.san.12.oct.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":59,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2007","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.1.nov.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":60,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2007","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.2.dec.2007","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2007"}},{"@type":"ListItem","position":61,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:3, ಜನವರಿ-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.3.jan.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":62,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.4.feb.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":63,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.5.mar.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":64,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.6.apr.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":65,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:7, ಮೇ-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.7.may.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":66,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:8, ಜೂನ್-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.8.jun.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":67,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:9, ಜುಲೈ-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.9.jul.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":68,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.10.aug.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":69,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.11.sep.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":70,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:6, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2008","url":"https://archive.org/details/smp.samvaadasamputa60000.sam.6.san.12.oct.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":71,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2008","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.1.nov.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":72,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2008","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.2.dec.2008","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2008"}},{"@type":"ListItem","position":73,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:3, ಜನವರಿ-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.3.jan.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":74,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.4.feb.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":75,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.5.mar.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":76,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.6.apr.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":77,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:7, ಮೇ-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.7.may.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":78,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:8, ಜೂನ್-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.8.jun.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":79,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:9, ಜುಲೈ-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.9.jul.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":80,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.10.aug.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":81,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.11.sep.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":82,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:7, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2009","url":"https://archive.org/details/smp.samvaadasamputa70000.sam.7.san.12.oct.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":83,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2009","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.1.nov.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":84,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2009","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.2.dec.2009","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2009"}},{"@type":"ListItem","position":85,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:3, ಜನವರಿ-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.3.jan.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":86,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.4.feb.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":87,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.5.mar.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":88,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.6.apr.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":89,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:7, ಮೇ-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.7.may.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":90,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:8, ಜೂನ್-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.8.jun.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":91,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:9, ಜುಲೈ-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.9.jul.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":92,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.10.aug.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":93,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.11.sep.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":94,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:8, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2010","url":"https://archive.org/details/smp.samvaadasamputa80000.sam.8.san.12.oct.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":95,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2010","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.1.nov.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":96,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2010","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.2.dec.2010","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2010"}},{"@type":"ListItem","position":97,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2011","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.2.dec.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":98,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2011","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san1.nov.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":99,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:3, ಜನವರಿ-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.3.jan.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":100,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.4.feb.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":101,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.5.mar.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":102,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.6.apr.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":103,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:7, ಮೇ-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.7.may.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":104,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:8, ಜೂನ್-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.8.jun.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":105,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:9, ಜುಲೈ-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.9.jul.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":106,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.10.aug.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":107,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.11.sep.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":108,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:9, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2011","url":"https://archive.org/details/smp.samvaadasamputa90000.sam.9.san.12.oct.2011","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2011"}},{"@type":"ListItem","position":109,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:3-4, ಜನವರಿ : ಫೆಬ್ರವರಿ-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.3-4.feb.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":110,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.5.mar.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":111,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.6.apr.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":112,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:7, ಮೇ-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.7.may.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":113,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:8, ಜೂನ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.8.jun.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":114,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:9, ಜುಲೈ-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.9.jul.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":115,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.10.aug.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":116,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.11.sep.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":117,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:10, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.10.san.12.oct.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":118,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:11, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.11.san.1.nov.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}},{"@type":"ListItem","position":119,"item":{"@type":"CreativeWork","name":"ಸಂವಾದ ಸಂಪುಟ:11, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2012","url":"https://archive.org/details/smp.samvaadasamputa10000.sam.11.san.2.dec.2012","author":{"@type":"Person","name":"ಇಂದುಧರ ಹೊನ್ನಾಪುರ"},"datePublished":"2012"}}]}}</script>
 </head>
-
 <body>
-    <!-- ==========================
-    NAVBAR
-    =========================== -->
-    <div class="navbar navbar-fixed-top jshead">
-        <img src="./img/logo_sanchaya.png" alt="Sanchaya" width="200" height="54">
+<a class="skip" href="#list">Skip to the list</a>
 
-        <h1>ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ</h1>
-        <div class="">
-        <a href="https://sanchifoundation.org" id="sanchi">ಸಂಚಿ ಫೌಂಡೇಶನ್</a>
-        |
-        <a href="https://sanchaya.org" id="sanchaya">ಸಂಚಯ</a>
-        </div>
-        <a href="#" id="infos">?</a>
-
-        <div id="twittit">
-            <a href="https://twitter.com/_sanchaya" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @_sanchaya</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-        </div>
-        <div class="container">
-        <center><form><script src="https://cdn.razorpay.com/static/widget/payment-button.js" data-payment_button_id="pl_FTB1pZqrFP6jrt"> </script> </form>
-        </center>
-      </div>
-    </div>
-
-    <!-- ==========================
-    TOGGLE INFOS
-    =========================== -->
-    <div class="container" id="jsinfos">
-        <div class="row">
-            <div class="span6">
-                <h4>ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ</h4>
-                <hr>
-                <p> "ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಸುಲಭ ಲಭ್ಯತೆಗೆ ಡಿಜಿಟಲ್ ಸಂಚಯವನ್ನು ಸೃಷ್ಟಿಸಲಾಗಿದೆ‍!. ಈ ಕಾರ್ಯಕ್ಕೆ ಆಸಕ್ತರು, ಪುಸ್ತಕಗಳನ್ನು ಹೊಂದಿರುವವರು,
-                ನಮ್ಮ ತಾಂತ್ರಿಕ ಕೆಲಸಗಳಿಗೆ ಸಹಕರಿಸುವವರು, ಯಾರು ಬೇಕಾದರೂ ಕೈ ಜೋಡಿಸಬಹುದು. ಸಂಪರ್ಕಿಸಿ dev@sanchaya.net</p>
-            </div>
-            <div class="span6">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-text="ಡಿಜಿಟಲ್ ಕನ್ನಡ ಪುಸ್ತಕಗಳು - ಸಂಚಯದ ಪುಸ್ತಕ ಡಿಜಿಟಲೀಕರಣ ಯೋಜನೆಯ ಭಾಗವಾಗಿದೆ" data-via="_sanchaya"></a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div>
-    </div>
-
-    <!-- ==========================
-    JOB / PYTHONBOOKS
-    =========================== -->
-    <div class="container">
-        <div class="row">
-            <div class="pythonbooks span12">
-                <p>See also :</p>
-                <a href="https://.sanchaya.net/" title="ಪುಸ್ತಕ ಡಿಜಿಟಲೀಕರಣ ಯೋಜನೆ"‍ target="_blank">
-                    <img src="./img/logo_sanchaya.png" alt="Sanchaya" title="ಕನ್ನಡ ಭಾಷಾ ತಂತ್ರಜ್ಞಾನ ಸಂ‍ಶೋಧನೆ ಹಾಗೂ ಅಧ್ಯಯನ ವೇದಿಕೆ!" width="100" height="16">
-                </a>
-                <a href="https://sanchaya.org/project/kannada-digitization-project/" target="_blank">
-                  ‍
-                </a>
-            </div>
-            <div class="span12 row-fluid">
-                <p class="span1">Filter by :</p>
-                <ul id="filterBy">
-                    <li><a href="#" data-level="any" class="active">All</a></li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- ////////// WRAPPER BOOKS -->
-        <div class="row" id="issueswrap"></div>
-    </div>
-
-    <!-- ==========================
-    FOOTER
-    =========================== -->
-    <div class="footer">
-        <hr>
-        <p> Sanchi Foundation® | ಸಂಚಿ ಫೌಂಡೇಷನ್® Except where otherwise noted, content on this site
-          is licensed under a Creative Commons Attribution 4.0 International License.
-          Each book has its own copyright/license. Please read the metadata on the book page. </p>
-    </div>
-
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/mustache.js"></script>
-
-                    <script type="text/javascript">
-    (function() {
-        var $filterBy, $issuesWrap, $reader, $readerFrame,
-            currentFilter = 'any';
-
-        function getYears(books) {
-            var seen = {};
-            return books.map(function(b) { return String(b.level); })
-                       .filter(function(y) {
-                           if (y === '' || seen[y]) return false;
-                           seen[y] = true;
-                           return true;
-                       })
-                       .sort(function(a, b) { return a - b; });
-        }
-
-        function renderFilters(years) {
-            years.forEach(function(year) {
-                $filterBy.append('<li><a href="#" data-level="' + year + '">' + year + '</a></li>');
-            });
-        }
-
-        function filterBooks(level) {
-            if (level === 'any') {
-                $('.booksection').show();
-            } else {
-                $('.booksection').hide();
-                $('.booksection.' + level).show();
-            }
-            currentFilter = level;
-        }
-
-        function initFilters() {
-            $filterBy.on('click', 'a', function(e) {
-                e.preventDefault();
-                var level = $(this).data('level');
-                if (level === currentFilter) return;
-                $filterBy.find('a').removeClass('active');
-                $(this).addClass('active');
-                filterBooks(level);
-            });
-        }
-
-        $(document).ready(function() {
-            $filterBy = $('#filterBy');
-            $issuesWrap = $('#issueswrap');
-            $reader = $('#bookreader');
-            $readerFrame = $('#readerFrame');
-
-            $.getJSON('./issues.json?' + Date.now())
-            .done(function(data) {
-                var years = getYears(data.books);
-                renderFilters(years);
-                initFilters();
-                data.books.sort(function() { return 0.5 - Math.random(); });
-                $issuesWrap.html(Mustache.to_html($('#booktpl').html(), data));
-            })
-            .fail(function(jqXHR, textStatus, error) {
-                console.error('Failed to load books:', textStatus, error);
-            });
-
-            $('#jsinfos').hide();
-            $('#infos').on('click', function(e) {
-                e.preventDefault();
-                $('#jsinfos').slideToggle();
-            });
-
-            $issuesWrap.on('click', '.book-link', function(e) {
-                e.preventDefault();
-                var identifier = $(this).data('identifier');
-                $readerFrame.attr('src', 'https://archive.org/stream/' + identifier + '/?ui=embed');
-                $reader.show();
-            });
-
-            $('#closeReader').on('click', function(e) {
-                e.preventDefault();
-                $reader.hide();
-                $readerFrame.attr('src', '');
-            });
-        });
-    })();
-    </script><script id="booktpl" type="text/template">
-        {{#books}}
-         <div class="span4 booksection {{level}}">
-          <a class="book-link" href="{{url}}" data-identifier="{{identifier}}">
-           <div class="view"> ಓದಿರಿ </div>
-
-           <div title="{{ title }}" id="cover" style="background:black url('{{cover}}') no-repeat center;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;">
-           </div>
-           <h2 title="{{ title }}">{{title}}</h2>
-          </a>
-          <h3><a href="{{authorUrl}}" target="_blank">{{author}}</a></h3>
-          <p class="level">{{level}}</p>
-          <p class="description">{{info}}</p>
-        </div>
-        {{/books}}
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RRZLCXBXJZ"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-4R3DJ46QED');
-    </script>
+<header class="top">
+  <div class="brand"><a class="logo" href="./" aria-label="ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ"><img src="./img/logo.png" alt="" height="40"></a>
+  <h1>ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ</h1><div class="orgs"></div></div>
+  <p class="tagline"></p>
+  <section class="about"><h2>About this collection</h2><p>ಇಂದುಧರ ಹೊನ್ನಾಪುರ ಸಾರಥ್ಯದ ಸಂವಾದ ಮಾಸ ಪತ್ರಿಕೆಯ ಡಿಜಿಟಲ್ ಸಂಚಿಕೆಗಳ ಕನ್ನಡ ಸಾಹಿತ್ಯ ಸಂಚಯ</p></section>
   
-<!-- Book Reader Modal -->
-<div id="bookreader">
-    <a href="#" id="closeReader">&times;</a>
-    <iframe id="readerFrame" src=""></iframe>
+</header>
+
+<div class="bar">
+  <div class="controls" role="search">
+    <label class="sr" for="q">Search</label>
+    <input id="q" type="search" placeholder="Search title, author, year…" autocomplete="off" enterkeyhint="search">
+    <button id="rand" type="button" class="btn">Random issue</button>
+  </div>
+  <div class="pills" id="pills"><button type="button" class="pill" data-year="any" aria-pressed="true">All</button><button type="button" class="pill" data-year="2002" aria-pressed="false">2002</button><button type="button" class="pill" data-year="2003" aria-pressed="false">2003</button><button type="button" class="pill" data-year="2004" aria-pressed="false">2004</button><button type="button" class="pill" data-year="2005" aria-pressed="false">2005</button><button type="button" class="pill" data-year="2006" aria-pressed="false">2006</button><button type="button" class="pill" data-year="2007" aria-pressed="false">2007</button><button type="button" class="pill" data-year="2008" aria-pressed="false">2008</button><button type="button" class="pill" data-year="2009" aria-pressed="false">2009</button><button type="button" class="pill" data-year="2010" aria-pressed="false">2010</button><button type="button" class="pill" data-year="2011" aria-pressed="false">2011</button><button type="button" class="pill" data-year="2012" aria-pressed="false">2012</button></div>
+  <div class="pills" id="vols"><span class="sr">Vol.</span><button type="button" class="pill" data-vol="any" aria-pressed="true">All volumes</button><button type="button" class="pill" data-vol="1" aria-pressed="false">Vol. 1</button><button type="button" class="pill" data-vol="2" aria-pressed="false">Vol. 2</button><button type="button" class="pill" data-vol="3" aria-pressed="false">Vol. 3</button><button type="button" class="pill" data-vol="4" aria-pressed="false">Vol. 4</button><button type="button" class="pill" data-vol="5" aria-pressed="false">Vol. 5</button><button type="button" class="pill" data-vol="6" aria-pressed="false">Vol. 6</button><button type="button" class="pill" data-vol="7" aria-pressed="false">Vol. 7</button><button type="button" class="pill" data-vol="8" aria-pressed="false">Vol. 8</button><button type="button" class="pill" data-vol="9" aria-pressed="false">Vol. 9</button><button type="button" class="pill" data-vol="10" aria-pressed="false">Vol. 10</button><button type="button" class="pill" data-vol="11" aria-pressed="false">Vol. 11</button></div>
+  <div class="pills" id="topics"></div>
+  <p id="count" class="count" aria-live="polite">119 / 119 items</p>
 </div>
+
+<main id="list" tabindex="-1">
+<ul class="cards"><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.1.nov.2002" data-year="2002" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.1.nov.2002" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2002" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.1.nov.2002" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.1.nov.2002" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.1.nov.2002" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2002" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.1.nov.2002" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2002</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 1</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.1.nov.2002" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:1, ನವೆಂಬರ್-2002" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.1.nov.2002" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.1.nov.2002" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:2-3, ಡಿಸೆಂಬರ್-2002 : ಜನವರಿ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:2-3, ಡಿಸೆಂಬರ್-2002 : ಜನವರಿ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:2-3, ಡಿಸೆಂಬರ್-2002 : ಜನವರಿ-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 2</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:2-3, ಡಿಸೆಂಬರ್-2002 : ಜನವರಿ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.2-3.jan.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.4.feb.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.4.feb.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.4.feb.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.4.feb.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.4.feb.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.4.feb.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 4</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.4.feb.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.4.feb.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.4.feb.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.5.mar.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.5.mar.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.5.mar.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.5.mar.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.5.mar.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.5.mar.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 5</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.5.mar.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.5.mar.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.5.mar.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.6.apr.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.6.apr.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.6.apr.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.6.apr.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.6.apr.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.6.apr.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 6</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.6.apr.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.6.apr.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.6.apr.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.7.may.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.7.may.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:7, ಮೇ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.7.may.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.7.may.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.7.may.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:7, ಮೇ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.7.may.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:7, ಮೇ-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 7</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.7.may.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:7, ಮೇ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.7.may.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.7.may.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.8.jun.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.8.jun.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:8, ಜೂನ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.8.jun.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.8.jun.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.8.jun.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:8, ಜೂನ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.8.jun.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:8, ಜೂನ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 8</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.8.jun.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:8, ಜೂನ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.8.jun.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.8.jun.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.9.jul.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.9.jul.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:9, ಜುಲೈ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.9.jul.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.9.jul.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.9.jul.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:9, ಜುಲೈ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.9.jul.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:9, ಜುಲೈ-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 9</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.9.jul.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:9, ಜುಲೈ-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.9.jul.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.9.jul.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.10.aug.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.10.aug.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.10.aug.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.10.aug.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.10.aug.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.10.aug.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 10</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.10.aug.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.10.aug.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.10.aug.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.11.sep.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.11.sep.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.11.sep.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.11.sep.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.11.sep.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.11.sep.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 11</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.11.sep.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.11.sep.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.11.sep.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa10000.sam.1.san.12.oct.2003" data-year="2003" data-vol="1">
+<a class="cover open" data-id="smp.samvaadasamputa10000.sam.1.san.12.oct.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.12.oct.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa10000.sam.1.san.12.oct.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa10000.sam.1.san.12.oct.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.12.oct.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 12</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa10000.sam.1.san.12.oct.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:1, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa10000.sam.1.san.12.oct.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa10000.sam.1.san.12.oct.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.1.nov.2003" data-year="2003" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.1.nov.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.1.nov.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.1.nov.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.1.nov.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.1.nov.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 1</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.1.nov.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.1.nov.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.1.nov.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.2.dec.2003" data-year="2003" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.2.dec.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.2.dec.2003" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.2.dec.2003" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.2.dec.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.2.dec.2003" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2003</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 2</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.2.dec.2003" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2003" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.2.dec.2003" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.2.dec.2003" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.3.jan.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.3.jan.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:3, ಜನವರಿ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.3.jan.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.3.jan.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.3.jan.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:3, ಜನವರಿ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.3.jan.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:3, ಜನವರಿ-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 3</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.3.jan.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:3, ಜನವರಿ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.3.jan.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.3.jan.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.4.feb.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.4.feb.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.4.feb.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.4.feb.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.4.feb.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.4.feb.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 4</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.4.feb.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.4.feb.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.4.feb.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.5.mar.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.5.mar.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.5.mar.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.5.mar.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.5.mar.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.5.mar.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 5</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.5.mar.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.5.mar.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.5.mar.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.6.apr.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.6.apr.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.6.apr.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.6.apr.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.6.apr.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.6.apr.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 6</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.6.apr.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:6, ಏಪ್ರಿಲ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.6.apr.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.6.apr.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.7.may.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.7.may.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:7, ಮೇ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.7.may.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.7.may.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.7.may.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:7, ಮೇ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.7.may.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:7, ಮೇ-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 7</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.7.may.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:7, ಮೇ-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.7.may.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.7.may.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.8.jun.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.8.jun.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:8, ಜೂನ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.8.jun.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.8.jun.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.8.jun.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:8, ಜೂನ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.8.jun.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:8, ಜೂನ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 8</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.8.jun.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:8, ಜೂನ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.8.jun.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.8.jun.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.10.aug.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.10.aug.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.10.aug.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.10.aug.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.10.aug.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.10.aug.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 10</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.10.aug.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:10, ಆಗಸ್ಟ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.10.aug.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.10.aug.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.11.sep.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.11.sep.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.11.sep.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.11.sep.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.11.sep.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.11.sep.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 11</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.11.sep.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:11, ಸೆಪ್ಟೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.11.sep.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.11.sep.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000.sam.2.san.12.oct.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000.sam.2.san.12.oct.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.12.oct.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000.sam.2.san.12.oct.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000.sam.2.san.12.oct.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.12.oct.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 12</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000.sam.2.san.12.oct.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:12, ಅಕ್ಟೋಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa20000.sam.2.san.12.oct.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000.sam.2.san.12.oct.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa20000sam.2.san.9.jul.2004" data-year="2004" data-vol="2">
+<a class="cover open" data-id="smp.samvaadasamputa20000sam.2.san.9.jul.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:9, ಜುಲೈ-2004" href="https://archive.org/details/smp.samvaadasamputa20000sam.2.san.9.jul.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa20000sam.2.san.9.jul.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa20000sam.2.san.9.jul.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:9, ಜುಲೈ-2004" href="https://archive.org/details/smp.samvaadasamputa20000sam.2.san.9.jul.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:9, ಜುಲೈ-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 9</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa20000sam.2.san.9.jul.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:2, ಸಂಚಿಕೆ:9, ಜುಲೈ-2004" href="https://archive.org/details/smp.samvaadasamputa20000sam.2.san.9.jul.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa20000sam.2.san.9.jul.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa30000.sam.3.san.1.nov.2004" data-year="2004" data-vol="3">
+<a class="cover open" data-id="smp.samvaadasamputa30000.sam.3.san.1.nov.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.1.nov.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa30000.sam.3.san.1.nov.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa30000.sam.3.san.1.nov.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.1.nov.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 1</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa30000.sam.3.san.1.nov.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ1:, ನವೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.1.nov.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa30000.sam.3.san.1.nov.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa30000.sam.3.san.2.dec.2004" data-year="2004" data-vol="3">
+<a class="cover open" data-id="smp.samvaadasamputa30000.sam.3.san.2.dec.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.2.dec.2004" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa30000.sam.3.san.2.dec.2004" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa30000.sam.3.san.2.dec.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.2.dec.2004" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2004</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 2</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa30000.sam.3.san.2.dec.2004" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:2, ಡಿಸೆಂಬರ್-2004" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.2.dec.2004" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa30000.sam.3.san.2.dec.2004" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa30000.sam.3.san.3.jan.2005" data-year="2005" data-vol="3">
+<a class="cover open" data-id="smp.samvaadasamputa30000.sam.3.san.3.jan.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:3, ಜನವರಿ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.3.jan.2005" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa30000.sam.3.san.3.jan.2005" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa30000.sam.3.san.3.jan.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:3, ಜನವರಿ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.3.jan.2005" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:3, ಜನವರಿ-2005</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 3</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa30000.sam.3.san.3.jan.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:3, ಜನವರಿ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.3.jan.2005" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa30000.sam.3.san.3.jan.2005" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa30000.sam.3.san.4.feb.2005" data-year="2005" data-vol="3">
+<a class="cover open" data-id="smp.samvaadasamputa30000.sam.3.san.4.feb.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.4.feb.2005" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa30000.sam.3.san.4.feb.2005" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa30000.sam.3.san.4.feb.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.4.feb.2005" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2005</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 4</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa30000.sam.3.san.4.feb.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:4, ಫೆಬ್ರವರಿ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.4.feb.2005" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa30000.sam.3.san.4.feb.2005" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa30000.sam.3.san.5.mar.2005" data-year="2005" data-vol="3">
+<a class="cover open" data-id="smp.samvaadasamputa30000.sam.3.san.5.mar.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.5.mar.2005" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa30000.sam.3.san.5.mar.2005" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa30000.sam.3.san.5.mar.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.5.mar.2005" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2005</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 5</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa30000.sam.3.san.5.mar.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:5, ಮಾರ್ಚ್-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.5.mar.2005" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa30000.sam.3.san.5.mar.2005" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa30000.sam.3.san.7.may.2005" data-year="2005" data-vol="3">
+<a class="cover open" data-id="smp.samvaadasamputa30000.sam.3.san.7.may.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:7, ಮೇ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.7.may.2005" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa30000.sam.3.san.7.may.2005" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa30000.sam.3.san.7.may.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:7, ಮೇ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.7.may.2005" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:7, ಮೇ-2005</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 7</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa30000.sam.3.san.7.may.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:7, ಮೇ-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.7.may.2005" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa30000.sam.3.san.7.may.2005" target="_blank" rel="noopener">Download</a></p>
+</li><li class="card" data-id="smp.samvaadasamputa30000.sam.3.san.8.jun.2005" data-year="2005" data-vol="3">
+<a class="cover open" data-id="smp.samvaadasamputa30000.sam.3.san.8.jun.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:8, ಜೂನ್-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.8.jun.2005" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="https://archive.org/services/img/smp.samvaadasamputa30000.sam.3.san.8.jun.2005" alt="" loading="lazy" decoding="async" width="300" height="400"></a>
+<h2><a class="open t" data-id="smp.samvaadasamputa30000.sam.3.san.8.jun.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:8, ಜೂನ್-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.8.jun.2005" target="_blank" rel="noopener">ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:8, ಜೂನ್-2005</a></h2>
+<p class="meta"><a href="https://archive.org/search.php?query=creator%3Aಇಂದುಧರ ಹೊನ್ನಾಪುರ" target="_blank" rel="noopener">ಇಂದುಧರ ಹೊನ್ನಾಪುರ</a></p><p class="meta">No. 8</p>
+<p class="links"><a class="open read" data-id="smp.samvaadasamputa30000.sam.3.san.8.jun.2005" data-title="ಸಂವಾದ ಸಂಪುಟ:3, ಸಂಚಿಕೆ:8, ಜೂನ್-2005" href="https://archive.org/details/smp.samvaadasamputa30000.sam.3.san.8.jun.2005" target="_blank" rel="noopener">Read</a><a href="https://archive.org/download/smp.samvaadasamputa30000.sam.3.san.8.jun.2005" target="_blank" rel="noopener">Download</a></p>
+</li></ul><div id="more" data-pages="4"></div>
+<p id="none" class="none" hidden>Nothing matches your search.</p>
+</main>
+
+<footer>
+  
+  <p class="credit">Published by S. R. Govindu.</p>
+  <p class="fine">Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 4.0 International License. Each issue has its own copyright/license. Please read the metadata on the issue page.</p>
+  <p class="sok"><img src="./img/sok-logo.png" alt=""><span>A <a href="https://archive.org/details/ServantsOfKnowledge" target="_blank" rel="noopener">Servants of Knowledge</a> Initiative</span></p>
+</footer>
+
+
+
+<script>
+(function () {
+  'use strict';
+  var FRAME = false, T = {"items":"items"};
+  var $ = function (s) { return document.querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
+  var q = $('#q'), pills = $$('#pills .pill'), tpills = $$('#topics .pill'), vpills = $$('#vols .pill'), year = 'any', topic = 'any', vol = 'any', more = $('#more');
+  var pages = more ? +more.dataset.pages : 1, next = 1, total = parseInt($('#count').textContent, 10) || 0;
+  var norm = function (s) { return s.normalize('NFC').toLowerCase(); };
+  var cards = function () { return $$('.card'); };
+  var idOf = function (c) { return c.dataset.id || c.querySelector('a.t').dataset.id; };
+  var loaded = { 0: 1 }, pending = {}, index = null, token = 0;
+
+  // Pages 1.. are fragments: merge them under the year/volume heading already on screen.
+  function attach(html) {
+    var box = document.createElement('div'); box.innerHTML = html;
+    var ul = $('main ul.cards');
+    $$('li', box).forEach(function (li) { ul.append(li); });
+  }
+  function load(n) {
+    if (loaded[n]) return Promise.resolve();
+    return pending[n] || (pending[n] = fetch('p/' + n + '.html').then(function (r) { return r.text(); }).then(function (h) { attach(h); loaded[n] = 1; }));
+  }
+  function loadNext() { return next < pages ? load(next++).then(function () { if (next >= pages && more) more.remove(); }) : Promise.resolve(); }
+  function getIndex() {
+    return index ? Promise.resolve(index) : fetch('search.json').then(function (r) { return r.json(); }).then(function (j) { return (index = j); });
+  }
+
+  var busy = false;
+  function apply() {
+    var terms = norm(q.value).split(/\s+/).filter(Boolean), me = ++token;
+    if (year === 'any' && topic === 'any' && vol === 'any' && !terms.length) {
+      cards().forEach(function (c) { c.hidden = false; });
+      $('#count').textContent = total + ' / ' + total + ' ' + T.items; $('#none').hidden = true; watch();
+      return;
+    }
+    getIndex().catch(function () {
+      // search.json missing (portal built by an older builder): filter what is on the page by year/text.
+      return cards().map(function (c) { return [idOf(c), c.dataset.year, c.dataset.q || c.textContent.normalize('NFC').toLowerCase(), 0, [], c.dataset.vol || '']; });
+    }).then(function (idx) {
+      var hit = idx.filter(function (r) { return (year === 'any' || r[1] === year) && (topic === 'any' || (r[4] || []).indexOf(topic) > -1) && (vol === 'any' || r[5] === vol) && terms.every(function (t) { return r[2].indexOf(t) > -1; }); });
+      var need = {}; hit.forEach(function (r) { need[r[3]] = 1; });
+      return Promise.all(Object.keys(need).map(load)).then(function () {
+        if (me !== token) return;
+        var ids = {}; hit.forEach(function (r) { ids[r[0]] = 1; });
+        cards().forEach(function (c) { c.hidden = !ids[idOf(c)]; });
+        $('#count').textContent = hit.length + ' / ' + total + ' ' + T.items; $('#none').hidden = hit.length > 0;
+      });
+    });
+  }
+  q.addEventListener('input', apply);
+  vpills.forEach(function (p) {
+    p.addEventListener('click', function () {
+      vol = p.dataset.vol;
+      vpills.forEach(function (x) { x.setAttribute('aria-pressed', x === p ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  tpills.forEach(function (p) {
+    p.addEventListener('click', function () {
+      topic = p.dataset.topic;
+      tpills.forEach(function (x) { x.setAttribute('aria-pressed', x === p ? 'true' : 'false'); });
+      apply();
+    });
+  });
+  // Long descriptions are clamped to a few lines; click (or Enter) to read the rest.
+  function flip(n) {
+    var open = n.classList.toggle('open');
+    n.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
+  $('#list').addEventListener('click', function (e) { var n = e.target.closest('.note'); if (n) flip(n); });
+  $('#list').addEventListener('keydown', function (e) {
+    var n = e.target.closest && e.target.closest('.note');
+    if (n && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); flip(n); }
+  });
+  pills.forEach(function (p) {
+    p.addEventListener('click', function () {
+      year = p.dataset.year;
+      pills.forEach(function (x) { x.setAttribute('aria-pressed', x === p ? 'true' : 'false'); });
+      apply();
+    });
+  });
+
+  // Auto-load the next page when the end of the list nears (only while nothing is filtered).
+  var io = more && 'IntersectionObserver' in window ? new IntersectionObserver(function (e) {
+    if (e[0].isIntersecting && year === 'any' && topic === 'any' && vol === 'any' && !q.value.trim()) loadNext().then(watch);
+  }, { rootMargin: '800px' }) : null;
+  function watch() { if (io && more && more.isConnected) { io.unobserve(more); io.observe(more); } }
+  if (io) watch(); else if (more) { while (next < pages) loadNext(); } // no IntersectionObserver: load everything
+
+  // shortcut: random pick only highlights; it never opens (popup blockers, and readers can still choose).
+  $('#rand').addEventListener('click', function () {
+    var vis = cards().filter(function (c) { return !c.hidden; });
+    if (!vis.length) return;
+    cards().forEach(function (c) { c.classList.remove('hit'); });
+    var c = vis[Math.floor(Math.random() * vis.length)];
+    c.classList.add('hit');
+    c.scrollIntoView({ block: 'center' });
+    c.querySelector('a.t').focus({ preventScroll: true });
+  });
+
+  if (FRAME) {
+    var dlg = $('#viewer'), fr = $('#vframe'), cur = -1;
+    var items = function () { return cards().filter(function (c) { return !c.hidden; }).map(function (c) { return c.querySelector('a.t'); }); };
+    var show = function (a) {
+      var l = items(); cur = l.indexOf(a);
+      fr.src = 'https://archive.org/embed/' + a.dataset.id;
+      $('#vtab').href = a.href; $('#vtitle').textContent = a.dataset.title;
+      $('#vprev').disabled = cur <= 0; $('#vnext').disabled = cur < 0 || cur >= l.length - 1;
+      if (!dlg.open) dlg.showModal();
+    };
+    $('#list').addEventListener('click', function (e) {
+      var a = e.target.closest('a.open');
+      if (!a || e.button || e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault(); show(a.closest('.card').querySelector('a.t'));
+    });
+    var step = function (d) {
+      var l = items(), n = l[cur + d];
+      if (n) show(n); else if (d > 0 && next < pages && year === 'any' && topic === 'any' && vol === 'any' && !q.value.trim()) loadNext().then(function () { var m = items()[cur + d]; if (m) show(m); });
+    };
+    $('#vprev').addEventListener('click', function () { step(-1); });
+    $('#vnext').addEventListener('click', function () { step(1); });
+    $('#vclose').addEventListener('click', function () { dlg.close(); });
+    dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); });
+    dlg.addEventListener('close', function () { fr.src = 'about:blank'; });
+    dlg.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowLeft') step(-1); else if (e.key === 'ArrowRight') step(1);
+    });
+  }
+})();
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RRZLCXBXJZ"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-RRZLCXBXJZ');</script>
 </body>
 </html>
